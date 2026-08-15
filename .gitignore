@@ -1,0 +1,12 @@
+node_modules/
+dist/
+src/config.js
+
+# Pistas de audio con derechos de autor: el reproductor las carga desde
+# assets/, pero no se suben al repositorio. Para publicarlo, usa música
+# libre de derechos o un fragmento propio.
+assets/*.mp3
+*.log
+.vscode/
+.DS_Store
+Thumbs.db
