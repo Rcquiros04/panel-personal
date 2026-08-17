@@ -1,5 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+        <!-- Sin esta línea el navegador adivina la codificación y los
+             grados salen como "15 Â°C" en vez de "15 °C". -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Noticias YA!</title>
         <link rel="stylesheet" type="text/css" href="../assets/styles.css">
     </head>
@@ -50,6 +55,7 @@
         </div>        
         <!-- config.js no está en el repositorio: copia config.example.js.
              Sin él el panel arranca igual, con los valores por defecto. -->
+        <script src="barra-portafolio.js" data-titulo="Panel de noticias" data-nota="Clima en vivo desde una API externa"></script>
         <script src="config.js" onerror="console.log('Sin config.js: se usan valores por defecto')"></script>
         <script src="index.js"></script>
       </body>
