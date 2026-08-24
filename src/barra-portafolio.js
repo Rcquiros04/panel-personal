@@ -15,7 +15,7 @@
 (function () {
   "use strict";
 
-  var PORTAFOLIO = "https://fofiuxx.github.io/portfolio/";
+  var PORTAFOLIO = "https://rcquiros04.github.io/portfolio/";
   var guion = document.currentScript;
   var titulo = (guion && guion.dataset.titulo) || document.title;
   var nota = (guion && guion.dataset.nota) || "";
